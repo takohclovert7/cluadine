@@ -1,0 +1,25 @@
+.gradient-custom {
+    /* fallback for old browsers */
+
+    }
+
+   .card{
+    background-color:#e4dede;
+    border:3px solid rgba(234, 202, 202, 0.5);
+   }
+
+    @media (max-width: 600px) {
+
+        /* .loginSection{
+
+            width: 350px;
+        } */
+    }
+
+    @media (min-width: 605px) {
+/* 
+        .loginSection{
+
+            width: 1000px;
+        } */
+    }

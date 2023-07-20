@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  position: relative;
+}
+
+/* The div that slides down */
+#slideDownDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  z-index: 10; /* A higher value than the below component */
+  display: none; /* Hide by default */
+}
