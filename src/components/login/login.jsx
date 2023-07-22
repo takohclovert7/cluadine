@@ -17,7 +17,7 @@ function Login(){
   </div>
 
        <div id="loginForm">
-  
+  <center>
        <section className="vh-60 gradient-custom">
   <div className="containerLogin py-2">
     <div className="d-flex justify-content-center align-items-center h-100">
@@ -74,6 +74,7 @@ function Login(){
     </div>
   </div>
 </section>
+</center>
        </div>
         </div>
         </div>

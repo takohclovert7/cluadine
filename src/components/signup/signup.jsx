@@ -28,7 +28,7 @@ function Signup() {
 
       
   <div id="signupForm" >  
-
+<center>
 
   <div    className="containerSignup">
 
@@ -123,7 +123,7 @@ function Signup() {
 </div> 
 
 
-
+</center>
   </div>
       
           </div>
