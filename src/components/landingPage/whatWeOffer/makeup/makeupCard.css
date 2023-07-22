@@ -1,0 +1,286 @@
+/* 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  }
+   */
+  .card {
+    width: 315px;
+    height: 260px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+ 
+  }
+  
+  .card h1 {
+    text-align: center;
+  }
+  
+  .card .additional {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(#dE685E, #6e8aee);
+    transition: width 0.4s;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .card.green .additional {
+    background: linear-gradient(#92bCa6, #A2CCB6);
+  }
+  
+  
+  .junior:hover .additional {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .card .additional .user-card {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
+  
+  .card .additional .user-card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: -2px;
+    height: 80%;
+    border-left: 2px solid rgba(0,0,0,0.025);
+  }
+  
+  .card .additional .user-card .level,
+  .card .additional .user-card .points {
+    top: 15%;
+    color: #867fb1;
+    text-transform: uppercase;
+    font-size: 0.55em;
+    font-weight: bold;
+    background: rgb(253, 253, 253);
+    padding: 0.125rem 0.75rem;
+    border-radius: 80px;
+    white-space: nowrap;
+   
+  }
+  .card .additional .user-card .level {
+ margin-top: 10px;
+ }
+ .card .additional .user-card .logo {
+  width: 90%;
+  height: 90px;
+  background-color: white;
+  margin-top: 50px;
+  overflow: hidden;
+ }
+ 
+  .card .additional .user-card .points {
+     position: relative;
+     top: 50px;
+  }
+  
+  
+  .card .additional .more-info {
+    width: 100px;
+    float: left;
+    position: absolute;
+    left: 150px;
+    height: 100%;
+  }
+  
+  .card .additional .more-info h1 {
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  
+  .card.green .additional .more-info h3 {
+    color: #224C36;
+  }
+  
+  .card .additional .coords {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .card.green .additional .coords {
+    color: #325C46;
+  }
+  
+  .card .additional .coords span + span {
+    float: right;
+  }
+  
+  .card .additional .stats {
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    color: #fff;
+  }
+  
+  .card.green .additional .stats {
+    color: #325C46;
+  }
+  
+  .card .additional .stats > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .card .additional .stats i {
+    display: block;
+  }
+  
+  .card .additional .stats div.title {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .card .additional .stats div.value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+  
+  .card .additional .stats div.value.infinity {
+    font-size: 2.5rem;
+  }
+  
+  .card .general {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-top: 0;
+  }
+  
+  .card .general .more {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.9em;
+  }
+ 
+  
+  
+   .ribbon-wrapper1 {
+    position: relative;z-index:998;
+    height: 100px;
+  }
+    .ribbon-front {
+        border: 2px solid white;
+    background-color: #4a559c;  height: 40px;
+   
+    width: 170px;
+    position: relative;
+    margin-left: 60px;
+    left:-10px;
+    z-index: 2; font:16px bold Verdana, Geneva, sans-serif; color:#f8f8f8; text-align:center;
+  }
+  .ribbon-front:hover{
+    background-color: rgba(74, 85, 156,0.4);
+    color:black
+  }
+    .ribbon-front,
+    .ribbon-back-left,
+    .ribbon-back-right
+  {
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  }
+  
+    .ribbon-edge-topleft,
+    .ribbon-edge-topright,
+    .ribbon-edge-bottomleft,
+    .ribbon-edge-bottomright {
+    position: absolute;
+    z-index: 1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+  }
+  
+    .ribbon-edge-topleft,
+    .ribbon-edge-topright {
+  }
+  
+    .ribbon-edge-bottomleft,
+    .ribbon-edge-bottomright {
+    top: 50px;
+  }
+  
+    .ribbon-edge-topleft,
+    .ribbon-edge-bottomleft {
+    left: -10px;
+    border-color: transparent #9B1724 transparent transparent;
+  }
+  
+    .ribbon-edge-topleft {
+    top: -5px;
+    border-width: 5px 10px 0 0;
+  }
+    .ribbon-edge-bottomleft {
+    border-width: 0 10px 0px 0;
+  }
+  
+    .ribbon-edge-topright,
+    .ribbon-edge-bottomright {
+    left: 220px;
+    border-color: transparent transparent transparent #9B1724;
+  }
+  
+    .ribbon-edge-topright {
+    top: 0px;
+    border-width: 0px 0 0 10px;
+  }
+    .ribbon-edge-bottomright {
+    border-width: 0 0 5px 10px;
+  }
+  
+  
+  @-webkit-keyframes flow {
+    0% { left:-20px;opacity: 0;}
+    50% {left:100px;opacity: 0.3;}
+      100%{ left:180px;opacity: 0;}
+  }
+  @keyframes flow {
+    0% { left:-20px;opacity: 0;}
+    50% {left:100px;opacity: 0.3;}
+      100%{ left:180px;opacity: 0;}
+  }
+  
+  .glow{ background: rgb(255,255,255); width:40px; height:100%; z-index:10; position:absolute;-webkit-animation: flow 1.5s linear infinite;-moz-animation: flow 1.5s linear infinite;-webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(1%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */ border-left:1px solid #fff;}
+  
+  
+  
+  
+  

@@ -8,19 +8,18 @@
 
       .navbar-wrapper {
         width: inherit;
-        background-color:  #e4dede; /* Set your desired background color */
-    
-       position: relative;  /* Ensure the wrapper acts as the reference for absolute positioning */
-      z-index: 1;    /*Set a z-index for the wrapper */
+        background-color:  #e4dede;
+       position: relative; 
+      z-index: 1000;    
       }
   
       .navbar {
-  
         background-color: white; /* Set your desired navbar background color */
         height: 60px; /* Set the height to your preference */
+        z-index: 2000;
         width: inherit; /* Set the width to your preference */
         transform: translateY(-50%);  /*Vertically center the navbar 
-        z-index: 2; /* Set a higher z-index for the navbar to appear above the content */
+        
       }
   
       .navbar .navbar-brand {

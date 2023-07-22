@@ -9,51 +9,51 @@ function Navbar(){
 
 <div  id="landingPageHeader">
   <br />
-<div class="navbar-wrapper"  >
+<div className="navbar-wrapper"  >
 
-<nav class="navbar navbar-expand-lg navbar-light" >
-<div class="container-fluid"  style={{marginBottom:"16px"}}>
-<div class="navbar-brand" id="imgDiv" >
+<nav className="navbar navbar-expand-lg navbar-light" >
+<div className="container-fluid"  style={{marginBottom:"16px"}}>
+<div className="navbar-brand" id="imgDiv" >
         <h4> CLAU'S FASHION</h4>
           <div>
             <img src={me} alt="junior"  /> 
           </div> 
         </div>
-  <button class="navbar-toggler" type="button"  style={{marginRight:"8px"}} data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button className="navbar-toggler" type="button"  style={{marginRight:"8px"}} data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarNav" style={{textAlign:"right",background:"white",paddingRight:"30px"}}>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="/" >Home</a>
+  <div className="collapse navbar-collapse" id="navbarNav" style={{textAlign:"right",background:"white",paddingRight:"30px"}}>
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item">
+        <a className="nav-link" href="/" >Home</a>
       </li>
-      <li class="nav-item">
-             <a class="nav-link" href="#">Contact</a>
+      <li className="nav-item">
+             <a className="nav-link" href="#">Contact</a>
            </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">Help</a>
+           <li className="nav-item">
+             <a className="nav-link" href="#">Help</a>
            </li>
           
-           <li class="nav-item">
-             <a class="nav-link" href="#">What we offer</a>
+           <li className="nav-item">
+             <a className="nav-link" href="/user/offers">What we offer</a>
            </li>
-         <li class="nav-item ">
-             <a class="nav-link" href="/user/login">Login</a>
+         <li className="nav-item ">
+             <a className="nav-link" href="/user/login">Login</a>
            </li>
-           <li class="nav-item ">
-             <a class="nav-link" href="/user/signup">Sign up</a>
+           <li className="nav-item ">
+             <a className="nav-link" href="/user/signup">Sign up</a>
            </li>
     </ul>
-        <form class="form-inline my-2 my-lg-0 d-inline d-xs-none">
+        <form className="form-inline my-2 my-lg-0 d-inline d-xs-none">
           <input
-            class="form-control mr-sm-2"
+            className="form-control mr-sm-2"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
   </div>
   </div>
