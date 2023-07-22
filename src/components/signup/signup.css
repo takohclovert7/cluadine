@@ -3,7 +3,7 @@
  
 }
 
-.card-body{
+#card-body-signup{
     width:400px;
 }
 
@@ -41,7 +41,7 @@
     color: #fff;
 }
 
-#signupForm .container #card {
+#signupForm .containerSignup #card {
     background-color :#e4dede;
     width: inherit;
     border:3px solid rgba(234, 202, 202, 0.5);
@@ -49,9 +49,9 @@
   border-radius: 12%;
 }
 
-@media (max-width: 600px) {
-    .card-body{
-        width:350px;
+@media (max-width: 800px) {
+    #card-body-signup{
+        width:310px;
     }
 }
 

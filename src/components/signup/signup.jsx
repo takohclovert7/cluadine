@@ -30,10 +30,10 @@ function Signup() {
   <div id="signupForm" >  
 
 
-  <div    className="container">
+  <div    className="containerSignup">
 
-<div    className="card " id="card" >
-<article    className="card-body mx-auto">
+<div    className="card " id="card" style={{height:"100%"}}>
+<article    className="card-body mx-auto" id="card-body-signup">
 	<h4    className="card-title mt-3 text-center">Create Account</h4>
 	<p    className="text-center">Get started with your free account</p>
 	<p>
@@ -43,7 +43,8 @@ function Signup() {
 	<p    className="divider-text">
         <span    className="bg-light">OR</span>
     </p>
-	<form>
+	<form >
+   
 	<div    className="form-group input-group">
 		<div    className="input-group-prepend">
 		    <span    className="input-group-text"> <i    className="fa fa-user"></i> </span>

@@ -19,10 +19,10 @@ function Login(){
        <div id="loginForm">
   
        <section className="vh-60 gradient-custom">
-  <div className="container py-2 h-70">
+  <div className="containerLogin py-2">
     <div className="d-flex justify-content-center align-items-center h-100">
 
-        <div className="card text-black" style={{borderRadius:"1rem"}}>
+        <div className="card text-black" style={{borderRadius:"1rem",height:"100%"}}>
           <div className="card-body p-3 text-center">
 
             <div className="mb-md-3 mt-md-3 pb-5">

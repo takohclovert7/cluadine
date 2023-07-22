@@ -8,7 +8,7 @@ function WhatWeOffer(){
 
 <Navbar />
 
-  <div className="container">
+  <div className="containerOffer">
     <h4>SERVICES OFFER BY <span>CLAU'S FASHION</span></h4>
   <div class="row">
     <div className=" col-6 col-sm-12 col-md-6 col-lg-6 ">
