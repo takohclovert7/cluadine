@@ -53,5 +53,8 @@
     #card-body-signup{
         width:310px;
     }
+    #logo{
+        display: none;
+    }
 }
 
