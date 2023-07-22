@@ -59,7 +59,7 @@ const clothes=[
                 </div>
               </div>
             <div className="product"  style={{background:"red"}}>
-  <div       className="ribbon-wrapper" >
+  <div       className="ribbon-wrapperF" >
     <div    className="ribbonNew">AVAIlABLE</div>
   </div>
   <img  src={logo} alt='logo not found' style={{height:"100%",width:"100%"}} />
@@ -69,7 +69,7 @@ const clothes=[
 <p>name  hjfmgkj,gh</p>
 <p id='price' style={{textTransform:"capitalize",fontSize:"bold"}}></p>
 <h6 style={{fontWeight:"bold"}}><span id='amount' style={{color:"red"}}>{cloth.price}</span> XAF</h6>
-</div>
+</div>  
 <div id='colorAndSeeMore' style={{display:"flex",justifyContent:"space-between",marginBottom:"7px"}}>
 <div id='colors' style={{marginLeft:"10px"}}>
     <span style={{fontWeight:"bolder",marginRight:"3px",fontWeight:"bold"}}>COLORS</span>
