@@ -10,12 +10,12 @@ function WhatWeOffer(){
 
 <Navbar />
 <h4>SERVICES OFFER BY <span>CLAU'S FASHION</span></h4>
-  <div classNameName="container">
+  <div classNameName="containerkjbb">
   
   <div className="row" style={{marginLeft:"10px",marginRight:"10px"}}>
 
 
-  <div className="whatWeOffercard col-12 col-sm-12 col-md-6 col-lg-4">
+  <div className="whatWeOffercard">
 
 <div className="title">NIALS/MAKE UP STORE</div>
 
@@ -58,7 +58,7 @@ function WhatWeOffer(){
 
 
 
-    <div className="whatWeOffercard col-12 col-sm-12 col-md-6 col-lg-4">
+    <div className="whatWeOffercard">
 
     <div className="title">CLAU'S FASHION STORE</div>
 
@@ -100,7 +100,7 @@ function WhatWeOffer(){
 
 </div>
 
-<div className="col-12 col-sm-12 col-md-12 col-lg-4 whatWeOffercard ">
+<div className="whatWeOffercard ">
 
 <div className="title">WIG STORE</div>
 
