@@ -56,7 +56,7 @@ function WhatWeOffer(){
 
 </div>
 
-
+{/* 
 
     <div className="whatWeOffercard">
 
@@ -139,9 +139,9 @@ function WhatWeOffer(){
 </div>
 
 {/* <br /><br /><br /><br /><br /> */}
-<a href="#"className="btn" style={{marginTop:"20px"}}>Check it out</a>
+{/* <a href="#"className="btn" style={{marginTop:"20px"}}>Check it out</a> */}
 
-</div>
+{/* </div> */} 
 
 
 
