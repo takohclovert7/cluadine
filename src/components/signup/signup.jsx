@@ -21,7 +21,7 @@ function Signup() {
    
 
       </div>
-      <div style={{display:"flex"}} >
+      <div id="signupBody">
   <div id="logo"  > 
 <img     className="img-fluid" src={logo} alt="logo not found"  />
   </div>

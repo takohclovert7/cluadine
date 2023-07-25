@@ -6,18 +6,18 @@ function Login(){
 
     return(
 <div>  <center>
-<div  id="signupHeader">
+<div  id="loginHeader">
     
     <Navbar />
 
       </div>
     
- <div  style={{display:"flex"}}  >
+ <div  id="loginBody">
         <div id="logo"  > 
 <img  className="img-fluid" src={logo} alt="logo not found"  />
   </div>
 <center>
-       <div id="loginForm" >
+       <div id="loginForm"  >
   <center>
        <section className="vh-60 gradient-custom">
   <div className="containerLogin py-2">

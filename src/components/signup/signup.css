@@ -46,7 +46,7 @@
     width: inherit;
     border:3px solid rgba(234, 202, 202, 0.5);
 
-  border-radius: 12%;
+  border-radius: 6%;
 }
 
 @media (max-width: 800px) {
@@ -58,3 +58,9 @@
     }
 }
 
+#signupBody{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

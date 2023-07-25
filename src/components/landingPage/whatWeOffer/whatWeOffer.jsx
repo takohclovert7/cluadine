@@ -71,7 +71,7 @@ function WhatWeOffer(){
   <h6 style={{color:"rgba(172, 86, 116,0.7)"}}>Here at <span style={{color:"rgb(172, 86, 116)"}}>CLAU"S FASHION </span>We Sell A Variety Of Fashion Wear Including</h6>
   <ul>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found"  />
   
     <li style={{paddingTop:"2px"}}>Men's Wear For Adults</li>  </div>
     <div style={{display:"flex"}}>

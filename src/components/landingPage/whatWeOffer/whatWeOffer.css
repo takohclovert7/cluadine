@@ -14,10 +14,12 @@
  
  
 }
+.whatWeOffercard .features ul div img{
+    width:30px;
+    height:30px;
+    margin-right:12px
+    }
 
-.features {
- 
-}
 .features ul {
     list-style-type: none;
    
@@ -32,13 +34,7 @@
    .icon{
     margin: 25px 0;
   }
-  @media (max-width: 768px) {
-    .whatWeOffercard{
-    margin: 10px 20px;
-    width: calc(100% - 40px);
 
-}
-  }
 
    
   .whatWeOffercard .btn {
@@ -57,4 +53,17 @@
 
   .whatWeOffercard .btn:hover {
     background: #F68657;
+  }
+
+  @media (max-width: 768px) {
+    .whatWeOffercard{
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+
+}
+.whatWeOffercard .features ul div img{
+    width:25px;
+    height:25px;
+    margin-right:10px
+    }
   }
