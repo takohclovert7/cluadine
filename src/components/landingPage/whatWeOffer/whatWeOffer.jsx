@@ -29,15 +29,15 @@ function WhatWeOffer(){
  
   <ul>
   <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found"  />
   
       <li style={{paddingTop:"2px"}}>Manicure</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
   
       <li style={{paddingTop:"2px"}}>Pedicure</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found"  />
   
       <li style={{paddingTop:"2px"}}>Do Make Up's</li></div>
     
@@ -71,26 +71,26 @@ function WhatWeOffer(){
   <h6 style={{color:"rgba(172, 86, 116,0.7)"}}>Here at <span style={{color:"rgb(172, 86, 116)"}}>CLAU"S FASHION </span>We Sell A Variety Of Fashion Wear Including</h6>
   <ul>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  />
+      <img src={arrow} alt="not found"  style={{width:"100px",height:"80px"}} />
   
     <li style={{paddingTop:"2px"}}>Men's Wear For Adults</li>  </div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
     <li style={{paddingTop:"2px"}}> Women's Wear For Adults</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
  
       <li style={{paddingTop:"2px"}}>Men's Wear For Childrien</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
   
       <li style={{paddingTop:"2px"}}>Women's Wear For Childrien</li></div>  
      <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
   
       <li style={{paddingTop:"2px"}}> Men's Wear For The Old</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found"  />
   
       <li style={{paddingTop:"2px"}}>Women's Wear For The Old</li></div>
   </ul>
@@ -114,15 +114,15 @@ function WhatWeOffer(){
  <center>
   <ul>
   <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
   
       <li style={{paddingTop:"2px"}}>Wig Installation</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
   
       <li style={{paddingTop:"2px"}}>Wig Maintainance</li></div>
     <div style={{display:"flex"}}>
-      <img src={arrow} alt="not found"  style={{width:"30px",height:"30px",marginRight:"12px"}}/>
+      <img src={arrow} alt="not found" />
   
       <li style={{paddingTop:"2px"}}>Selling Of Wig</li></div>
     
