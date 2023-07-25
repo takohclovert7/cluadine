@@ -11,42 +11,8 @@
   text-align: center;
   color: white;
   float: left;
-  @media (max-width: 768px) {
-    margin: 10px 20px;
-    width: calc(100% - 40px);
-    &:first-child {
-      margin-top: 20px;
-    }
-  }
-  &:nth-child(2) {
-    margin: 20px 0px;
-    width: 33.3333%;
-    padding: 50px 20px;
-    @media (max-width: 768px) {
-      margin: 10px 20px;
-      width: calc(100% - 40px);
-    }
-  }
-
  
  
-  
-  .btn {
-    display: block;
-    font-size: large;
-    font-weight: bold;
-    background:#F6B352;
-    color: white;
-    padding: 15px 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: rgba(0,0,0,0.9);
-    transition: all 200ms ease-in-out;
-    text-decoration: none;
-    &:hover {
-      background: #F68657;
-    }
-  }
 }
 
 .features {
@@ -65,4 +31,30 @@
 
    .icon{
     margin: 25px 0;
+  }
+  @media (max-width: 768px) {
+    .whatWeOffercard{
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+
+}
+  }
+
+   
+  .whatWeOffercard .btn {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    background:#F6B352;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.9);
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+  }
+
+  .whatWeOffercard .btn:hover {
+    background: #F68657;
   }
