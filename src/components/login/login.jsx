@@ -5,18 +5,19 @@ import logo from "../../images/backgroundLogo.png"
 function Login(){
 
     return(
-<div>
+<div>  <center>
 <div  id="signupHeader">
     
     <Navbar />
 
       </div>
- <div  style={{display:"flex"}}>
+    
+ <div  style={{display:"flex"}}  >
         <div id="logo"  > 
 <img  className="img-fluid" src={logo} alt="logo not found"  />
   </div>
-
-       <div id="loginForm">
+<center>
+       <div id="loginForm" >
   <center>
        <section className="vh-60 gradient-custom">
   <div className="containerLogin py-2">
@@ -76,7 +77,9 @@ function Login(){
 </section>
 </center>
        </div>
+       </center>
         </div>
+        </center>
         </div>
     );
 }

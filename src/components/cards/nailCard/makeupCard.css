@@ -1,14 +1,28 @@
-/* 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-  }
-   */
+.containerNail.testimonials__containerNail{
+  width: 315px;
+ height: 475px;
+padding-bottom: 2rem;
+    /* background-color: aqua; */
+  
+}
+
+
+.testimonialNail{
+
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    /* padding: 0 0.5rem; */
+    border-radius: 2rem;
+    user-select: none;
+    box-shadow: black;
+    overflow: hidden;
+
+}
   .card {
     width: 315px;
-    height: 260px;
+ height: 475px;
     background-color: #fff;
     background: linear-gradient(#f8f8f8, #fff);
     box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);

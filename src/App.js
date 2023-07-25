@@ -1,15 +1,17 @@
 import './App.css';
 import LandingPage from './components/landingPage/landingPage';
-import React, { useState } from 'react';
-
 
 
 function App() {
-
+ 
   return (
     <div className="App">
 
 <LandingPage />
+{/* <div id='straight'>
+  <h5 id='h5'>AVAILABLE</h5>
+
+</div> */}
 
         </div>
   );

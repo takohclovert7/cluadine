@@ -1,0 +1,74 @@
+.containerWig.testimonials__containerWig{
+  width: 280px;
+ height: 475px;
+padding-bottom: 2rem;
+    /* background-color: aqua; */
+  
+}
+
+
+.testimonialWig{
+
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 0.5rem;
+    border-radius: 2rem;
+    user-select: none;
+    box-shadow: black;
+    overflow: hidden;
+
+}
+
+
+.wigDiv{
+  
+    padding-bottom: 2rem;
+   
+}
+
+.wigDiv .wigCard .cardFront {
+  width: 100%;
+  height: 250px;
+}
+
+
+
+.wigDiv .wigCard .cardFront  .wigImage {
+  width: 95%;
+  height: 260px;
+  margin-bottom: 7px;
+}
+
+.wigDiv .wigCard .cardFront #colorAndSeeMore #colors .color{
+  width: 15px;
+  height: 15px;
+  margin-left:3px ;
+  margin-top: 6px;
+
+}
+
+.wigDiv .wigCard .cardFront .frame{
+
+  width: 90%;
+  margin: 2px auto;
+  text-align: center;
+
+ 
+
+  
+}
+.wigDiv .wigCard .cardFront .frame  .custom-btn {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 7px 25px;
+  /* font-family: 'Lato', sans-serif; */
+  font-weight: 500;
+  background: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+
+}

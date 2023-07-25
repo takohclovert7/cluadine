@@ -58,7 +58,7 @@ const clothes=[
                 <h6 style={{marginRight:"6px"}}> Age  <span>{cloth.ageRange}</span></h6>
                 </div>
               </div>
-            <div className="product"  style={{background:"red"}}>
+            <div className="productF"  style={{background:"red"}}>
   <div       className="ribbon-wrapperF" >
     <div    className="ribbonNew">AVAIlABLE</div>
   </div>
@@ -72,7 +72,7 @@ const clothes=[
 </div>  
 <div id='colorAndSeeMore' style={{display:"flex",justifyContent:"space-between",marginBottom:"7px"}}>
 <div id='colors' style={{marginLeft:"10px"}}>
-    <span style={{fontWeight:"bolder",marginRight:"3px",fontWeight:"bold"}}>COLORS</span>
+    <span style={{fontWeight:"bolder",marginRight:"3px"}}>COLORS</span>
     <div style={{display:"flex"}}>
 {cloth.colors.map(function(color, index){
     return(

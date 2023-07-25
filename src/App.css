@@ -52,8 +52,23 @@
   z-index: 10; /* A higher value than the below component */
   display: none; /* Hide by default */
 }
-
-
+#straight{
+width: 20px;
+height: 200px;
+background-color:gold;
+z-index: 20;
+}
+#straight #h5{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform:    rotate(-90deg);
+  -ms-transform:     rotate(-90deg);
+  -o-transform:      rotate(-90deg);
+  position: relative;
+  color: white;
+  top: 130px;
+  font-size: small;
+  font-weight: bold;
+}
 
 
 
