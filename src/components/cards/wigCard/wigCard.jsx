@@ -93,10 +93,11 @@ const wigs=[
           <h4 style={{textTransform:"uppercase",color:"rgb(113, 96, 169)",fontWeight:"bold",paddingTop:"4px",fontSize:"small"}}>Clau's Fashion</h4>
 
   <div    className="wigImage">
-  {/* <div id='straight'>
-  <h5 id='h5'>AVAILABLE</h5> */}
+  <div       className="ribbon-wrapperF" style={{marginTop:"30px"}}>
+    <div    className="ribbonNew">AVAIlABLE</div>
+  </div>
 <img  src={WigImage} alt='logo not found' style={{height:"100%",width:"100%"}} />
-{/* </div> */}
+
 </div>
  
  <div id='colorAndSeeMore' style={{display:"flex",justifyContent:"space-between",marginBottom:"7px"}}>

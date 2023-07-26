@@ -43,27 +43,24 @@
     position: absolute;
     top: -3px;
     left: -3px;
-    .ribbonNew {
-      font: bold 11px sans-serif;
-      color: #333;
-      text-align: center;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform:    rotate(-45deg);
-      -ms-transform:     rotate(-45deg);
-      -o-transform:      rotate(-45deg);
-      position: relative;
-      padding: 7px 0;
-      top: 15px;
-      left: -30px;
-      width: 120px;
-      background-color: #ebb134;
-      color: #fff;
-    }
+   
   }
-  
-.co{
-    color:#7160a9
-}
+  .ribbonNew {
+    font: bold 11px sans-serif;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #ebb134;
+    color: #fff;
+  }
 
   .ribbon {
    

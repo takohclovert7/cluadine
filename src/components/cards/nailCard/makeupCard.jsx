@@ -7,7 +7,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useState } from "react";
+import { Col } from "react-bootstrap";
 function Makeup(props){
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
 const prices=[
   {
     price:"6000"
@@ -37,66 +44,42 @@ const prices=[
       <SwiperSlide className="testimonialNail">
              
              
-
-<div className="center">
-
-<div className="card">
-  <div className="junior">
-  <div className="additional">
-    <div className="user-card">
-      <div className="level center">
-       {props.text}
-      </div><center>
-      <div className="logo rounded-circle">
-    <img src={logo} alt="not found" style={{width:"90%",height:"90%"}} />
-      </div></center>
-      <div className="points center">
-      CLAU'S FASHION
+<div className={`flip-card ${isFlipped ? 'flipped' : ''}`}>
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <div style={{display:"flex"}} className="shop">
+          <h6 style={{textTransform:"uppercase",color:"rgb(113, 96, 169)",fontWeight:"bold",paddingTop:"4px",fontSize:"small"}}> cluas Fashion </h6>
+          <button className="shopLoactioBtn"   onClick={handleFlip} >Shop Loaction</button>
+          </div>
+     <div className="image-div" >
+     <div       className="ribbon-wrapperF" style={{marginTop:"35px"}}>
+    <div    className="ribbonNew">AVAIlABLE</div>
+  </div>
+<img src={props.image} alt="not found"  style={{width:"100%",height:"100%"}} />
+     </div>
+<h6 style={{fontWeight:"bold",fontSize:"x-large",marginTop:"15px"}}><span style={{color:"red"}}>{price.price}  </span>XAF</h6>
+     <button className="buyBtnFront" style={{
+      width:"250px",
+      height:"40px",
+      background:"black",
+      color:"white",
+      fontSize:"meduim",
+     fontWeight:"bold",
+     marginTop:"15px"
+     }}>{props.btnText}</button>
+     <p  style={{
+      fontSize:"small",
+      color:"grey",
+      fontWeight:"bold",
+   marginTop:"35px"
+     }}>Click the shop loaction found at the top right corner to see shop physical location</p>
+        </div>
+        <div className="flip-card-back">
+          <h2>shop location</h2>
+          <button onClick={handleFlip}>Back</button>
+        </div>
       </div>
-            </div>
-    <div className="more-info">
-      <h6>shop physical location</h6>
-      <div className="coords">
-        
-      </div>
-      
     </div>
-  </div></div>
-  <div className="general">
-      <center >
-      <h6>MAKE UP STYLE</h6>
-  <div className="container">
- <div style={{width:"100%",height:"250px",marginLeft:"40px",marginRight:"10px"}}>
-  <img src={props.image} alt="not found" style={{width:"100%",height:"100%"}} />
- </div>
-
- 
-</div><br />
-
-      </center>
-<div id="bookedmakeupDate" style={{marginLeft:"50px",marginTop:"10px"}}>
-  <center>
-  <h4 style={{marginBottom:"17px",fontWeight:"bold"}}><span style={{color:"red"}}>{price.price}  </span>XAF</h4>
-  </center>
-
-<div className="ribbon-wrapper1" ><div class="glow">&nbsp;</div>
-  <button className="ribbon-front" >
-{props.btnText}
-  </button>
-  <div className="ribbon-edge-topleft"></div>
-  <div className="ribbon-edge-topright"></div>
-  <div className="ribbon-edge-bottomleft"></div>
-  <div className="ribbon-edge-bottomright"></div>
-  <h6 style={{fontSize:"small",color:"gray",fontWeight:"bold",marginLeft:"40px",marginTop:"10px"}}>Click logo on the left side to see shop physical location</h6>
-</div>
-
-</div>
-
-
-  </div> 
-</div>
-
-</div>
 
 
                  </SwiperSlide>

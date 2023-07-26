@@ -62,7 +62,7 @@ function Navbar(){
 
         </div>
 
-      <Carousel interval={1500} controls={false} indicators={false}>
+      {/* <Carousel interval={1500} controls={false} indicators={false}>
       <Carousel.Item>
         <p className="carousel-content">First slide content</p>
         <Carousel.Caption>
@@ -78,7 +78,7 @@ function Navbar(){
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel> 
+    </Carousel>  */}
         </div>
     )
 }

@@ -1,0 +1,50 @@
+/* ShoeFlipCard.css */
+.shoe-card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+  }
+  
+  .front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    transform: rotateY(180deg);
+  }
+  
+  .size-buttons {
+    margin-top: 10px;
+  }
+  
+  .size-button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .size-button.selected {
+    border-color: #007
+  }  
