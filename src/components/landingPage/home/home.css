@@ -1,0 +1,21 @@
+.sliding-text-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+   
+  }
+  
+  .sliding-text {
+    display: inline-block;
+    animation: slideText 5s linear infinite; /* Adjust the animation duration here */
+  }
+  
+  @keyframes slideText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
