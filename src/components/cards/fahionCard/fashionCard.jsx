@@ -52,7 +52,7 @@ const clothes=[
          
        <SwiperSlide  className="testimonial" key={index1}>
             <div className='swiperHeaader'>
-                <h6 style={{textTransform:"uppercase",color:"rgb(113, 96, 169)",fontWeight:"bold",paddingTop:"4px",fontSize:"small"}}> cluas Fashion </h6>
+                <h6 style={{textTransform:"uppercase",color:"rgb(113, 96, 169)",fontWeight:"bold",paddingTop:"4px",fontSize:"small"}}> clau's Fashion </h6>
                 <div style={{display:"flex",justifyContent:"space-between"}}>
                 <h6 style={{marginLeft:"20px",fontWeight:"bold"}}>   SIZES <br /><span style={{color:"gray",fontWeight:"normal"}}>{cloth.size}</span></h6>
                 <h6 style={{marginRight:"6px"}}> Age  <span>{cloth.ageRange}</span></h6>

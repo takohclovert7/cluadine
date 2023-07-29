@@ -8,6 +8,8 @@
   .sliding-text {
     display: inline-block;
     animation: slideText 5s linear infinite; /* Adjust the animation duration here */
+    font-weight: bold;
+    color: rgba(255, 0, 0,0.7);
   }
   
   @keyframes slideText {

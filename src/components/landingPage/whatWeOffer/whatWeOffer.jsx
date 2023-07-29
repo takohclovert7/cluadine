@@ -45,7 +45,7 @@ function WhatWeOffer(){
 <div >
   <div >
   <span style={{color:"red"}}>Read Me !!!</span><br />
-<strong style={{color:"lightgray"}}>This serices are done at Clau's Fashion shop locate in Douala Bonaberi</strong><br />
+<strong style={{color:"lightgray"}}>This services are done at Clau's Fashion shop locate in Douala Bonaberi</strong><br />
     </div>
 <button style={{width:"190px",height:"35px",background:"lightgray",color:"black",textTransform:"uppercase", fontSize:"meduim",fontWeight:"bold"}}>See shop location </button><br />
 </div>
@@ -76,7 +76,7 @@ function WhatWeOffer(){
     <li style={{paddingTop:"2px"}}>Men's Wear For Adults</li>  </div>
     <div style={{display:"flex"}}>
       <img src={arrow} alt="not found" />
-    <li style={{paddingTop:"2px"}}> Women's Wear For Adults</li></div>
+    <li style={{paddingTop:"2px"}}>Women's Wear For Adults</li></div>
     <div style={{display:"flex"}}>
       <img src={arrow} alt="not found" />
  
@@ -130,7 +130,7 @@ function WhatWeOffer(){
   <div >
   <div >
   <span style={{color:"red"}}>Read Me !!!</span><br />
-<strong  style={{color:"lightgray"}}>This Wig installation and Maintainance serices are done at Clau's Fashion shop locate in Douala Bonaberi</strong><br />
+<strong  style={{color:"lightgray"}}>The Wig installation and Maintainance services are done at Clau's Fashion shop locate in Douala Bonaberi</strong><br />
     </div>
 <button style={{width:"190px",height:"35px",background:"lightgray",color:"black",textTransform:"uppercase", fontSize:"meduim",fontWeight:"bold"}}>See shop location </button><br />
 </div>

@@ -36,7 +36,7 @@ function Login(){
     	<div className="input-group-prepend">
 		    <span className="input-group-text"> <i className="fa fa-envelope"></i> </span>
 		 </div>
-        <input name="email" className="form-control" placeholder="Email address" type="email" required /> 
+        <input name="email" className="form-control" placeholder="Email address or Username" type="email" required /> 
     </div>
 
 

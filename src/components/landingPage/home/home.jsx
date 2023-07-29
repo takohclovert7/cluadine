@@ -43,15 +43,15 @@ function Home(){
   <center>
 <h5>To <span style={{color:"blue"}}>Clau's Fashion</span> Where Style Meets Elegance!</h5>
 </center>
-<p style={{margin:"15px",fontWeight:"800",color:"gray"}}>
+<p style={{margin:"15px",fontWeight:"800",color:"rgba(0,0,0,0.7)"}}>
 At <span style={{color:"blue"}}>Clau's Fashion</span>, we believe that fashion is an art form that empowers individuals to express 
 their unique personalities and stories. Step into a world of timeless elegance ,classic
 and contemporary trends as we curate an exclusive collection of exquisite fashion designs just for you at a cheaper an affortable prices.
 </p>
-<p  style={{marginLeft:"15px",fontWeight:"800",color:"gray",marginInlineStart:"15px"}}>
+<p  style={{marginLeft:"15px",fontWeight:"800",color:"rgba(0,0,0,0.7)",marginInlineStart:"15px"}}>
 Explore a world of fashion wonders that cater to every occasion - from 
 glamorous evening events to chic and comfortable everyday wear. Uncover an extensive range of stylish 
-clothing, captivating accessories, and opulent footwear that will elevate your fashion game to new heights
+clothing, captivating accessories, and opulent footwear that will elevate your fashion game to new heights.
 </p>
 </div>
 

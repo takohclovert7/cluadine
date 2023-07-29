@@ -1,0 +1,41 @@
+
+  #navbar-toggle {
+    position: fixed;
+    top: 5px;
+    left: 2px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: -200px; /* Start the navbar outside the viewport */
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease;
+    overflow:auto;
+  }
+  
+  #navbar.active {
+    left: 0; /* Slide the navbar into the viewport */
+  }
+  
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #navbar li {
+    padding: 15px;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

@@ -48,7 +48,7 @@ const prices=[
       <div className="flip-card-inner">
         <div className="flip-card-front">
           <div style={{display:"flex"}} className="shop">
-          <h6 style={{textTransform:"uppercase",color:"rgb(113, 96, 169)",fontWeight:"bold",paddingTop:"4px",fontSize:"small"}}> cluas Fashion </h6>
+          <h6 style={{textTransform:"uppercase",color:"rgb(113, 96, 169)",fontWeight:"bold",paddingTop:"4px",fontSize:"small"}}> clau's Fashion </h6>
           <button className="shopLoactioBtn"   onClick={handleFlip} >Shop Loaction</button>
           </div>
      <div className="image-div" >

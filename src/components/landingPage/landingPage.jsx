@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Signup from "../signup/signup";
 import Login from "../login/login";
 import WhatWeOffer from "../../components/landingPage/whatWeOffer/whatWeOffer"
+import UserDashBoard from "../userDashboard/userDashboard";
 
 function LandingPage(){
  
@@ -21,6 +22,7 @@ function LandingPage(){
         <Route path="/user/offers" element={ < WhatWeOffer/>} />
 
         <Route path="/user/login" element={<Login />} />
+        <Route path="/user/dashboard" element={<UserDashBoard />} />
       </Routes></div>
     </Router>  
    
